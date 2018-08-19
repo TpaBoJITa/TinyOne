@@ -2,10 +2,10 @@ $(function(){
 	"use strict";
 
 
-$('.burger__menu').hide();
 
-$('.toggle').click(function(){
-      $('nav').slideToggle("slow"); 
+
+$('.js-toogle').click(function(){
+      $('.js-nav').slideToggle("slow"); 
       });
 
 
